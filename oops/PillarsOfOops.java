@@ -1,4 +1,4 @@
-package oops.basics;
+package oops;
 
 public class PillarsOfOops {
     public static void main(String[] args) {

@@ -53,5 +53,20 @@ public class switchStatement {
 
         System.out.println("The month is: " + monthName);
         //output will be "The month is: March" because of fall through behavior when break statements are not used.
+
+        //enhanced switch statement (Java 14 and later)
+        int dayOfWeek = 5;
+        String dayOfWeekName = switch (dayOfWeek) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "Invalid day";
+        };
+        System.out.println("The day of the week is: " + dayOfWeekName);
+        //output will be "The day of the week is: Friday" because of the enhanced switch statement syntax using "->" and no need for break statements.
     }
 }

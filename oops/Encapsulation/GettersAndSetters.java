@@ -56,5 +56,8 @@ public class GettersAndSetters {
         System.out.println("Current Balance: " + account.getBalance()); // Getting the current balance
         account.setBalance(-500); // Attempting to set an invalid balance, will print an error message
         System.out.println("Current Balance: " + account.getBalance()); // Getting the current balance again to show that it has not changed
+
+        //Convention for boolean getters is to use 'is' instead of 'get' and setters remain the same. For example: isActive() for a boolean field named 'active'.
+
     }
 }

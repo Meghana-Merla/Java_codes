@@ -48,5 +48,21 @@ public class intro {
         Tightly Encapsulated Class: A class that has all its fields declared as private and provides public getter and setter methods to access and modify those fields is considered a tightly encapsulated class. 
         This means that the internal state of the class is well-protected and can only be accessed and modified through controlled methods, ensuring better data integrity and security.
         */
+
+        /*
+        Why Encapsulation is important?
+        1. Data Protection: Encapsulation helps to protect the internal state of an object by hiding its data and only allowing access through controlled methods. 
+        This prevents unauthorized access and modification of the data, ensuring that the integrity of the object is maintained.
+        2. Modularity: Encapsulation promotes modularity by allowing you to group related data and methods together within a class. 
+        This makes it easier to manage and maintain the code, as you can focus on specific parts of the class without worrying about the internal details.
+        3. Code Reusability: Encapsulation allows you to create reusable code by defining classes that can be easily instantiated and used in different parts of the application. 
+        This promotes code reuse and reduces redundancy, making your code more efficient and easier to maintain.
+        4. Flexibility and Maintainability: Encapsulation allows you to change the internal implementation of a class without affecting the external code that uses it. 
+        This means that you can modify the internal workings of a class without breaking the code that relies on it, making your code more flexible and easier to maintain.
+        5. Improved Security: By encapsulating sensitive data and providing controlled access through methods, you can enhance the security of your application. 
+        This is especially important when dealing with sensitive information such as passwords, financial data, or personal information, as it helps to prevent unauthorized access and protect the privacy of users.
+         * Encapsulation is a fundamental principle of object-oriented programming that helps to create robust, maintainable, 
+           and secure code by controlling access to the internal state of objects and providing a clear interface for interacting with them.
+        */
     }
 }

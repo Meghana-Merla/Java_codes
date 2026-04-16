@@ -1,10 +1,11 @@
+package basics;
 public class variables {
     public static void main(String[] args) {
-        int myNum = 5;               // Integer (whole number)
-        float myFloatNum = 5.99f;    // Floating point number
-        char myLetter = 'D';         // Character
+        int myNum = 14;               // Integer (whole number)
+        float myFloatNum = 31.08f;    // Floating point number
+        char myLetter = 'P';         // Character
         boolean myBool = true;       // Boolean
-        String myText = "Hello";     // String
+        String myText = "Meghana";     // String
         long myLongNum = 15000000000L; // Long integer
         
         System.out.println(myNum);

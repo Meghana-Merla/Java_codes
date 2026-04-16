@@ -4,7 +4,7 @@ public class variables {
         int myNum = 14;               // Integer (whole number)
         float myFloatNum = 31.08f;    // Floating point number
         char myLetter = 'P';         // Character
-        boolean myBool = true;       // Boolean
+        boolean myBool = true;       // Boolean - true or false
         String myText = "Meghana";     // String
         long myLongNum = 15000000000L; // Long integer
         

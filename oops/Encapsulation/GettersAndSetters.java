@@ -15,6 +15,14 @@ public class GettersAndSetters {
                 System.out.println("Invalid balance amount.");
             }
         }
+        //Smart Setter example: A setter method that includes additional logic or validation to ensure that the data being set is valid and consistent with the business rules of the application.
+        public void smartSetBalance(double balance) {
+            if (balance >= 0 && balance <= 1000000) { // Additional validation to ensure balance is within a reasonable range
+                this.balance = balance; // Setting the balance if it is valid
+            } else {
+                System.out.println("Invalid balance amount. Balance must be between 0 and 1,000,000.");
+            }
+        }
     }
     public static void main(String[] args) {
         /*Getters and Setters are methods used to access and modify the private fields of a class in an encapsulated manner. 
@@ -59,5 +67,10 @@ public class GettersAndSetters {
 
         //Convention for boolean getters is to use 'is' instead of 'get' and setters remain the same. For example: isActive() for a boolean field named 'active'.
 
+        //SmartSetters are setter methods that include additional logic or validation to ensure that the data being set is valid and consistent with the business rules of the application.
+        account.smartSetBalance(1500); // Setting a valid balance using the smart setter
+        System.out.println("Current Balance: " + account.getBalance()); // Getting the current balance
+        account.smartSetBalance(-500); // Attempting to set an invalid balance, will print an error message
+        System.out.println("Current Balance: " + account.getBalance()); // Getting the current balance again to show that it has not changed
     }
 }

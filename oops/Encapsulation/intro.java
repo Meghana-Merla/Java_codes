@@ -43,5 +43,10 @@ public class intro {
         BankAccount account = new intro().new BankAccount();
         account.deposit(500); // Valid deposit
         account.deposit(-100); // Invalid deposit, will print an error message
+
+        /*
+        Tightly Encapsulated Class: A class that has all its fields declared as private and provides public getter and setter methods to access and modify those fields is considered a tightly encapsulated class. 
+        This means that the internal state of the class is well-protected and can only be accessed and modified through controlled methods, ensuring better data integrity and security.
+        */
     }
 }

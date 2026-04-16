@@ -1,4 +1,4 @@
-package oops;
+package oops.basics;
 
 class MyClass {
     int value;

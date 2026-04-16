@@ -46,5 +46,21 @@ public class AccessModifiers {
         By using access modifiers appropriately, you can control the visibility of your class members and ensure that sensitive data is protected while still allowing necessary interactions with other parts of your code.
         */
 
+        /*
+        Modifiers for classes:
+        Modifiers can be applied to classes, methods, and variables to control their accessibility.
+        For classes, the access modifiers can be public or default (package-private).
+        A public class can be accessed from any other class in any package, while a default (package-private) class can only be accessed from classes within the same package.
+        For example:
+        public class MyClass {
+            // This class can be accessed from anywhere
+        }
+        class MyPackageClass {
+            // This class can only be accessed from classes within the same package
+        }
+        Modifiers for methods and variables:
+        For methods and variables, all four access modifiers (public, private, protected, and default) can be used to control their accessibility.
+        Example in AccessModifiersExample.java file.
+        */
     }
 }

@@ -5,7 +5,7 @@ public class AccessModifiers {
         public int publicField; // Accessible from anywhere
         private int privateField; // Accessible only within the same class
         protected int protectedField; // Accessible within the same package and by subclasses
-        int defaultField; // Accessible only within the same package (default access)
+        int defaultField=0; // Accessible only within the same package (default access)
 
         public void publicMethod() {
             // This method can be called from anywhere

@@ -29,7 +29,7 @@ public class PassByValueDemo {
 
     public static void main(String[] args) {
 
-        // -------- Primitive Example --------
+        //Primitive Example
         int x = 10;
         System.out.println("Before method call (primitive): " + x);
 
@@ -37,14 +37,21 @@ public class PassByValueDemo {
 
         System.out.println("After method call (primitive): " + x);
 
-        System.out.println("---------------------------");
+        //output:
+        //Before method call (primitive): 10
+        //Inside method (primitive): 20
+        //After method call (primitive): 10
 
-        // -------- Object Example --------
+        //Object Example
         MyClass m = new MyClass(20);
         System.out.println("Before method call (object): " + m.value);
 
         modifyObject(m);
 
         System.out.println("After method call (object): " + m.value);
+        //output:
+        //Before method call (object): 20
+        //Inside method (object): 30
+        //After method call (object): 30
     }
 }
